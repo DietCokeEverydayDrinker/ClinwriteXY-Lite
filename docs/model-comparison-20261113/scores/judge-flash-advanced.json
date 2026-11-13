@@ -1,0 +1,264 @@
+{
+  "judge_model": "deepseek-v4-flash-advanced",
+  "arms": {
+    "G": {
+      "cases": {
+        "6": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 4,
+          "total": 24,
+          "material_errors": []
+        },
+        "7": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "8": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 4,
+          "total": 24,
+          "material_errors": []
+        }
+      },
+      "total": 73,
+      "overall_notes": [
+        "Identifies the core contradictions and preserves evidence boundaries in all three cases.",
+        "Provides usable reviewer language, repair steps, and search/presentation handoffs.",
+        "Case 6 is slightly repetitive, but its blocking issues and actions remain easy to locate."
+      ]
+    },
+    "H": {
+      "cases": {
+        "6": {
+          "evidence": 5,
+          "consistency": 4,
+          "integrity": 5,
+          "actionability": 3,
+          "concision": 4,
+          "total": 21,
+          "material_errors": [
+            "Misses the participant-flow conflict between 120 enrolled, 118 analysed, and 3 participants with missing exposure.",
+            "Does not deliver the usable point-by-point reviewer reply that can be drafted honestly from the supplied facts."
+          ]
+        },
+        "7": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 4,
+          "concision": 4,
+          "total": 23,
+          "material_errors": []
+        },
+        "8": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 4,
+          "concision": 4,
+          "total": 23,
+          "material_errors": []
+        }
+      },
+      "total": 67,
+      "overall_notes": [
+        "Handles unsupported analyses and missing artefacts correctly without fabricating them.",
+        "The main deduction is that Case 6 stops after identifying problems and leaves an available reviewer reply incomplete."
+      ]
+    },
+    "I": {
+      "cases": {
+        "6": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 4,
+          "total": 24,
+          "material_errors": []
+        },
+        "7": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 4,
+          "total": 24,
+          "material_errors": []
+        },
+        "8": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 4,
+          "total": 24,
+          "material_errors": []
+        }
+      },
+      "total": 72,
+      "overall_notes": [
+        "Comprehensive and well-calibrated across all three cases.",
+        "Adds useful audit details such as the missing association estimate in Case 7.",
+        "Some sections are longer than necessary, but the added detail supports execution."
+      ]
+    },
+    "J": {
+      "cases": {
+        "6": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "7": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "8": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 4,
+          "total": 24,
+          "material_errors": []
+        }
+      },
+      "total": 74,
+      "overall_notes": [
+        "Most consistently combines complete issue detection with direct, executable recommendations.",
+        "Maintains strict evidence boundaries while still delivering reviewer and repair language.",
+        "Case 8 handoff is useful and concise, though the slide outline is less detailed than the literature handoff."
+      ]
+    },
+    "K": {
+      "cases": {
+        "6": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 2,
+          "concision": 5,
+          "total": 22,
+          "material_errors": [
+            "Omits the point-by-point reviewer reply despite the task requiring it.",
+            "Provides required facts but not a directly executable repair sequence."
+          ]
+        },
+        "7": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 3,
+          "concision": 5,
+          "total": 23,
+          "material_errors": [
+            "The repair advice is useful but does not fully deliver the requested section-by-section interface plan."
+          ]
+        },
+        "8": {
+          "evidence": 5,
+          "consistency": 4,
+          "integrity": 5,
+          "actionability": 2,
+          "concision": 5,
+          "total": 21,
+          "material_errors": [
+            "States that literature search and PPTX creation are outside scope but does not provide the expected page-by-page outline.",
+            "The handoff is limited to required inputs and lacks a sufficiently concrete search and presentation workflow."
+          ]
+        }
+      },
+      "total": 66,
+      "overall_notes": [
+        "Evidence-boundary and anti-fabrication handling are sound.",
+        "The declared narrow scope is treated as a delivery limitation rather than an integrity failure.",
+        "The main weakness is repeatedly stopping short of available, directly usable deliverables."
+      ]
+    },
+    "L": {
+      "cases": {
+        "6": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 2,
+          "total": 22,
+          "material_errors": []
+        },
+        "7": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 2,
+          "total": 22,
+          "material_errors": []
+        },
+        "8": {
+          "evidence": 5,
+          "consistency": 5,
+          "integrity": 5,
+          "actionability": 5,
+          "concision": 2,
+          "total": 22,
+          "material_errors": []
+        }
+      },
+      "total": 66,
+      "overall_notes": [
+        "Very thorough and evidence-bounded, with executable audit, search, and presentation handoffs.",
+        "Loses substantial concision through repeated schemas, tables, and restatements across each case.",
+        "Case 8 places usable drafting before the blocking limitations, reducing scan efficiency."
+      ]
+    }
+  },
+  "case_rankings": {
+    "6": [
+      "G",
+      "I",
+      "J",
+      "K",
+      "L",
+      "H"
+    ],
+    "7": [
+      "G",
+      "J",
+      "I",
+      "H",
+      "K",
+      "L"
+    ],
+    "8": [
+      "G",
+      "I",
+      "J",
+      "H",
+      "L",
+      "K"
+    ]
+  },
+  "summary": "J ranks first overall with complete issue detection, strong boundary control, and concise executable outputs. G and I are close behind, while H delivers sound audits but leaves more reusable work unfinished. K and L tie in total: K is concise but often stops before delivering available work, whereas L is highly actionable but materially overlong."
+}

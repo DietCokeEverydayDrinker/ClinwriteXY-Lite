@@ -1,0 +1,91 @@
+{
+  "judge_model": "deepseek-v4-pro-advanced",
+  "arms": {
+    "G": {
+      "cases": {
+        "6": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 5, "total": 25, "material_errors": []},
+        "7": {"evidence": 5, "consistency": 4, "integrity": 5, "actionability": 5, "concision": 5, "total": 24, "material_errors": []},
+        "8": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 4, "concision": 5, "total": 24, "material_errors": []}
+      },
+      "total": 73,
+      "overall_notes": [
+        "Concise and complete across all three cases.",
+        "Case 7 does not flag that the supplied Results contain no primary association estimate or confidence interval.",
+        "Case 8 literature handoff is usable but does not require an auditable search record (databases, date, query, deduplication)."
+      ]
+    },
+    "H": {
+      "cases": {
+        "6": {"evidence": 5, "consistency": 4, "integrity": 5, "actionability": 3, "concision": 4, "total": 21, "material_errors": []},
+        "7": {"evidence": 5, "consistency": 4, "integrity": 5, "actionability": 4, "concision": 4, "total": 22, "material_errors": []},
+        "8": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 4, "concision": 4, "total": 23, "material_errors": []}
+      },
+      "total": 66,
+      "overall_notes": [
+        "Honest scope boundary, but the requested Case 6 point-by-point reply is deferred rather than drafted.",
+        "Case 6 misses the 120-minus-118 equals 2 versus 3-missing-exposure reconciliation gap.",
+        "Case 8 handoff lacks an explicit auditable search record.",
+        "Text contains a repeated unexpanded template placeholder that reduces readability."
+      ]
+    },
+    "I": {
+      "cases": {
+        "6": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 5, "total": 25, "material_errors": []},
+        "7": {"evidence": 5, "consistency": 4, "integrity": 5, "actionability": 5, "concision": 5, "total": 24, "material_errors": []},
+        "8": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 4, "total": 24, "material_errors": []}
+      },
+      "total": 73,
+      "overall_notes": [
+        "Reconciliation and evidence tables make the audit easy to verify.",
+        "Case 7 does not flag the missing primary association estimate and instead implies an estimate can be handed to the Discussion.",
+        "Case 8 handoff is structured and includes auditable search fields."
+      ]
+    },
+    "J": {
+      "cases": {
+        "6": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 4, "total": 24, "material_errors": []},
+        "7": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 4, "total": 24, "material_errors": []},
+        "8": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 4, "total": 24, "material_errors": []}
+      },
+      "total": 72,
+      "overall_notes": [
+        "Most complete cross-file finds, including the missing primary association estimate in Case 7 and the participant-flow gap in Case 6.",
+        "Handoffs are executable and include an auditable search record.",
+        "Slightly longer with mild redundancy."
+      ]
+    },
+    "K": {
+      "cases": {
+        "6": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 3, "concision": 4, "total": 22, "material_errors": []},
+        "7": {"evidence": 5, "consistency": 4, "integrity": 5, "actionability": 4, "concision": 4, "total": 22, "material_errors": []},
+        "8": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 2, "concision": 4, "total": 21, "material_errors": []}
+      },
+      "total": 65,
+      "overall_notes": [
+        "Honest scope boundary, but the Case 6 point-by-point reply is not drafted.",
+        "Case 8 provides no page-by-page slide outline and only generic input lists for the search and presentation handoffs.",
+        "Case 7 notes the missing effect estimate only as needed input rather than as a blocking interface gap.",
+        "Text contains a repeated unexpanded template placeholder that reduces readability."
+      ]
+    },
+    "L": {
+      "cases": {
+        "6": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 4, "total": 24, "material_errors": []},
+        "7": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 3, "total": 23, "material_errors": []},
+        "8": {"evidence": 5, "consistency": 5, "integrity": 5, "actionability": 5, "concision": 3, "total": 23, "material_errors": []}
+      },
+      "total": 70,
+      "overall_notes": [
+        "Most exhaustive and complete, with full search workflow, PubMed template, and a detailed 10-slide table.",
+        "Finds the missing primary association estimate and all participant-flow and table-number mismatches.",
+        "Longest output with some overlapping sections, which lowers concision."
+      ]
+    }
+  },
+  "case_rankings": {
+    "6": ["G", "I", "J", "L", "K", "H"],
+    "7": ["J", "I", "G", "L", "H", "K"],
+    "8": ["I", "J", "G", "L", "H", "K"]
+  },
+  "summary": "All six arms were factually clean and refused to fabricate E-values, citations, references, or PPTX files. Differentiation is driven by completeness of cross-file and cross-section finds, by how directly the search and presentation handoffs can be executed, and by concision. G and I are compact and complete but miss the missing primary association estimate in Case 7; G also omits an explicit auditable-search requirement in Case 8. J and L make the most complete finds, including the missing primary effect estimate and auditable search records; L is the most exhaustive but also the most verbose. H and K declare honest scope boundaries, which preserves integrity, but defer the Case 6 reply and return thinner handoffs; K omits the Case 8 page-by-page slide outline entirely."
+}

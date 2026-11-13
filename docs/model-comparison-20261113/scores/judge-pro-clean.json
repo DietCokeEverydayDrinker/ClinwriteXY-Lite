@@ -1,0 +1,79 @@
+{
+  "judge_model": "deepseek-v4-pro-clean",
+  "arms": {
+    "A": {
+      "cases": {
+        "1": {"evidence": 4, "preservation": 2, "prose": 4, "concision": 4, "usefulness": 3, "total": 17, "material_errors": ["Omitted the 1,702 Swiss patients (development/internal validation) and 851 UK patients (external validation) that the prompt required to be preserved."]},
+        "2": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "3": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "4": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "5": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []}
+      },
+      "total": 117,
+      "overall_notes": ["Case 1 drops both required cohort sizes."]
+    },
+    "B": {
+      "cases": {
+        "1": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 4, "usefulness": 5, "total": 24, "material_errors": []},
+        "2": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 4, "usefulness": 5, "total": 24, "material_errors": []},
+        "3": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 4, "usefulness": 5, "total": 24, "material_errors": []},
+        "4": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "5": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []}
+      },
+      "total": 122,
+      "overall_notes": ["Complete and calibrated throughout; prose is slightly wordy in cases 1-3 but no material errors were found."]
+    },
+    "C": {
+      "cases": {
+        "1": {"evidence": 4, "preservation": 2, "prose": 5, "concision": 4, "usefulness": 3, "total": 18, "material_errors": ["Omitted the 1,702 Swiss and 851 UK patient numbers."]},
+        "2": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 4, "usefulness": 4, "total": 23, "material_errors": []},
+        "3": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "4": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "5": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []}
+      },
+      "total": 116,
+      "overall_notes": ["Case 1 omits the required cohort sizes. Case 2 substitutes 'metabolic disturbances' for the supplied 'metabolic signature' and calls the mediated share 'modest'."]
+    },
+    "D": {
+      "cases": {
+        "1": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "2": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "3": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "4": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "5": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []}
+      },
+      "total": 125,
+      "overall_notes": ["All required numbers preserved and claims calibrated; no material errors detected."]
+    },
+    "E": {
+      "cases": {
+        "1": {"evidence": 4, "preservation": 2, "prose": 5, "concision": 4, "usefulness": 3, "total": 18, "material_errors": ["Omitted the 1,702 Swiss and 851 UK patient numbers."]},
+        "2": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 4, "usefulness": 5, "total": 24, "material_errors": []},
+        "3": {"evidence": 5, "preservation": 5, "prose": 4, "concision": 4, "usefulness": 4, "total": 22, "material_errors": []},
+        "4": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "5": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []}
+      },
+      "total": 114,
+      "overall_notes": ["Case 1 omits the required cohort sizes. Case 3 folds the concluding sentence into the paragraph and drops the endometrial-carcinoma staging context."]
+    },
+    "F": {
+      "cases": {
+        "1": {"evidence": 4, "preservation": 2, "prose": 4, "concision": 2, "usefulness": 3, "total": 15, "material_errors": ["Omitted the 1,702 Swiss and 851 UK patient numbers."]},
+        "2": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 4, "usefulness": 5, "total": 24, "material_errors": []},
+        "3": {"evidence": 5, "preservation": 5, "prose": 4, "concision": 2, "usefulness": 3, "total": 19, "material_errors": []},
+        "4": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []},
+        "5": {"evidence": 5, "preservation": 5, "prose": 5, "concision": 5, "usefulness": 5, "total": 25, "material_errors": []}
+      },
+      "total": 108,
+      "overall_notes": ["Case 1 omits the required cohort sizes and repeats its closing point. Case 3 is redundant and omits the MRI/endometrial-carcinoma staging context."]
+    }
+  },
+  "case_rankings": {
+    "1": ["D", "B", "C", "E", "A", "F"],
+    "2": ["A", "D", "B", "E", "F", "C"],
+    "3": ["A", "C", "D", "B", "E", "F"],
+    "4": ["A", "B", "C", "D", "E", "F"],
+    "5": ["A", "B", "C", "D", "E", "F"]
+  },
+  "summary": "Four of six arms (A, C, E, F) omitted the required 1,702 Swiss and 851 UK cohort sizes in Case 1, which is the main preservation failure in this set. Cases 4 and 5 were handled correctly by every arm, with all required numbers, the 32-versus-30 sample-size error, the AIHA denominator shift, the five-year EFS correction, and the durability/cure/standard-treatment overstatements correctly identified. Case 2 was uniformly well calibrated; minor deductions came from wordiness and a 'metabolic disturbances' wording substitution. Case 3 separated the arms mainly on format and redundancy, with one arm folding the concluding sentence into the paragraph and another repeating the same caveat twice while dropping the MRI/endometrial-carcinoma context. No arm invented citations or introduced new unsupported causal or clinical claims in the corrected outputs."
+}

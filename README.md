@@ -5,6 +5,50 @@
 
 > 改得像论文，也保住数字和结论边界。
 
+## 开源版与完整版
+
+| 开源 ClinwriteXY Lite | 完整版 ClinwriteXY |
+|---|---|
+| 免费，MIT License | 一次性买断，购买者个人授权 |
+| 适用于一段摘要、结果、讨论、结论或摘要对齐 | 适用于整篇论文、学位论文、综述章和完整返修流程 |
+| 单段证据冻结、中文微编辑、双语对齐、数字保真脚本 | 项目状态、跨文件审计、引用与报告规范、审稿回复、逐页汇报设计 |
+| 不处理整篇审阅、跨文件追踪、项目恢复和成品 PPT | 覆盖临床课题从开题、执行、成稿到返修的工作流 |
+
+Lite 是完整版能力范围的一个独立短篇入口。需要整篇论文、多文献证据综合、
+跨文件结果核对、审稿回复或长期项目记录时，使用完整版。
+
+**完整版当前状态：爱发电认证审核中。** 认证完成前，可以通过
+[我的小红书主页](https://www.xiaohongshu.com/user/profile/69666bf30000000003012a27)
+查看商品和私信购买。完整版源码不公开，Lite 的开源许可不改变完整版的购买者授权。
+
+## 模型对比结果
+
+2026-11-13 使用 5 个基础写作病例和 3 个高阶综合病例，对比 DeepSeek V4 Pro、
+V4 Flash 分别搭配 Raw、ClinwriteXY Lite 和 ClinwriteXY Full 的表现。
+
+在 5 个基础病例中：
+
+| 条件 | 盲评均值 |
+|---|---:|
+| Flash Raw | 109.5 / 125 |
+| **Flash + Lite** | **122.5 / 125** |
+| Flash + Full | 122.5 / 125 |
+| Pro Raw | 118.0 / 125 |
+| Pro Lite | 119.0 / 125 |
+| Pro Full | 119.5 / 125 |
+
+Flash + Lite 和 Flash + Full 保留了关键病例中的 `1,702` 与 `851` 两个队列
+样本量，Pro 三种条件和 Flash Raw 均遗漏。本轮短篇写作证据支持：
+
+> 使用 V4 Flash + ClinwriteXY Lite，以更低成本达到接近或略高于 V4 Pro Raw
+> 的盲评水平。
+
+这个结论只适用于本轮脱敏短篇写作病例，不能外推到所有论文、真实投稿或所有临床
+亚专科。完整方法、评分锚点、脱敏原文、六个组合的全部输出和科研风格图见
+[模型对比实验](docs/model-comparison-20261113/README.md)。
+
+![模型总体表现](docs/model-comparison-20261113/assets/figure-1-overall-performance.png)
+
 **English summary:** ClinwriteXY Lite is a small clinical-writing skill for one
 Chinese or English abstract, results, discussion, limitation, or conclusion
 paragraph. It drafts from supplied facts, calibrates claims to the available
@@ -153,9 +197,21 @@ python scripts/validate_evals.py evals/cases.jsonl
 
 ## Full version
 
-完整版面向整篇论文、学位论文、多文献证据综合、审稿回复和项目恢复。发布前把此处替换
-为实际爱发电或商品页链接：
+完整版面向整篇论文、学位论文、多文献证据综合、审稿回复和项目恢复，并包含：
 
-```text
-[ClinwriteXY 完整版](<你的爱发电商品页>)
-```
+- 中英文论文与学位论文写作、证据审计和结论校准；
+- 多研究综述、临床与动物证据分层、逐句引用定位；
+- 项目状态恢复、数据版本记录、跨文件结果核对；
+- 审稿意见逐条回复、修改位置映射和返修台账；
+- 论文或学位论文的逐页汇报设计；
+- PRTS 写作方法中关于中英文表达、逻辑接口和去模板化的完整规则。
+
+**完整版当前由爱发电认证审核中，暂未把爱发电商品页作为主要入口。**
+
+当前购买与咨询入口：
+
+- [小红书主页：无糖可乐每日饮](https://www.xiaohongshu.com/user/profile/69666bf30000000003012a27)
+- [Bilibili：无糖可乐每日饮](https://space.bilibili.com/198039978)
+
+完整版为一次性买断，不包含固定频率更新、定制安装、一对一论文修改或无限期维护。
+价格、当前交付版本和售后范围以小红书商品页说明为准。

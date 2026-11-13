@@ -4,6 +4,10 @@ This is a small, one-run developer check, not a formal benchmark. It used
 `deepseek-v4-pro` through Codex, the same public-fact prompts, and a blind
 evaluator.
 
+> Historical note: this file records the first small comparison. The expanded
+> 2026-11-13 six-condition comparison is in
+> [`docs/model-comparison-20261113/README.md`](../docs/model-comparison-20261113/README.md).
+
 ## Single-paragraph cases
 
 | Arm | Blind score (out of 25) | Observed result |

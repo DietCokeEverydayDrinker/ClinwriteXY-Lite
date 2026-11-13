@@ -1,0 +1,7 @@
+model,condition,case_1,case_2,case_3,case_4,case_5
+V4 Pro,Raw,19.5,23.5,25.0,25.0,25.0
+V4 Pro,Lite,21.5,24.0,23.5,25.0,25.0
+V4 Pro,Full,19.5,25.0,25.0,25.0,25.0
+V4 Flash,Raw,17.0,24.0,20.0,24.0,24.5
+V4 Flash,Lite,24.5,24.0,24.5,25.0,24.5
+V4 Flash,Full,23.5,25.0,25.0,25.0,24.0

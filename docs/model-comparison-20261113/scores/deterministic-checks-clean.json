@@ -1,0 +1,2594 @@
+{
+  "flash-full.md": {
+    "bytes": 5102,
+    "cases_present": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cases": {
+      "1": {
+        "word_count": 127,
+        "character_count": 860,
+        "checks": [
+          {
+            "type": "number",
+            "token": "1,702",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "851",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.72",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.63",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.81",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.58",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.70",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "internal-validation",
+            "present": false
+          },
+          {
+            "type": "concept",
+            "token": "external-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "no-clinical-utility",
+            "present": true
+          }
+        ],
+        "missing": [
+          "internal-validation"
+        ]
+      },
+      "2": {
+        "word_count": 133,
+        "character_count": 795,
+        "checks": [
+          {
+            "type": "number",
+            "token": "220,089",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "8,459",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3.84%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "11.6",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.11",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.52",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.62",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.99",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "observational",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "residual-confounding",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "non-causal",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "3": {
+        "word_count": 78,
+        "character_count": 535,
+        "checks": [
+          {
+            "type": "number",
+            "token": "32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "53.1%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "21.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "25.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "58.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "65.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "50.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "72.2%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "retrospective",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "single-centre",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "small-sample",
+            "present": false
+          }
+        ],
+        "missing": [
+          "small-sample"
+        ]
+      },
+      "4": {
+        "word_count": 22,
+        "character_count": 430,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-boundary",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "5": {
+        "word_count": 269,
+        "character_count": 1783,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "sample-size-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "efs-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-strength",
+            "present": true
+          }
+        ],
+        "missing": []
+      }
+    }
+  },
+  "flash-lite.md": {
+    "bytes": 5948,
+    "cases_present": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cases": {
+      "1": {
+        "word_count": 136,
+        "character_count": 936,
+        "checks": [
+          {
+            "type": "number",
+            "token": "1,702",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "851",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.72",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.63",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.81",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.58",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.70",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "internal-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "external-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "no-clinical-utility",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "2": {
+        "word_count": 156,
+        "character_count": 1004,
+        "checks": [
+          {
+            "type": "number",
+            "token": "220,089",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "8,459",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3.84%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "11.6",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.11",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.52",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.62",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.99",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "observational",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "residual-confounding",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "non-causal",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "3": {
+        "word_count": 124,
+        "character_count": 936,
+        "checks": [
+          {
+            "type": "number",
+            "token": "32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "53.1%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "21.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "25.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "58.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "65.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "50.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "72.2%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "retrospective",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "single-centre",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "small-sample",
+            "present": false
+          }
+        ],
+        "missing": [
+          "small-sample"
+        ]
+      },
+      "4": {
+        "word_count": 26,
+        "character_count": 456,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-boundary",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "5": {
+        "word_count": 153,
+        "character_count": 1325,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "sample-size-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "efs-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-strength",
+            "present": true
+          }
+        ],
+        "missing": []
+      }
+    }
+  },
+  "flash-raw.md": {
+    "bytes": 5754,
+    "cases_present": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cases": {
+      "1": {
+        "word_count": 146,
+        "character_count": 1034,
+        "checks": [
+          {
+            "type": "number",
+            "token": "1,702",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "851",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "0.72",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.63",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.81",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.58",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.70",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "internal-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "external-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "no-clinical-utility",
+            "present": true
+          }
+        ],
+        "missing": [
+          "1,702",
+          "851"
+        ]
+      },
+      "2": {
+        "word_count": 155,
+        "character_count": 990,
+        "checks": [
+          {
+            "type": "number",
+            "token": "220,089",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "8,459",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3.84%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "11.6",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.11",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.52",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.62",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.99",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "observational",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "residual-confounding",
+            "present": false
+          },
+          {
+            "type": "concept",
+            "token": "non-causal",
+            "present": true
+          }
+        ],
+        "missing": [
+          "residual-confounding"
+        ]
+      },
+      "3": {
+        "word_count": 139,
+        "character_count": 974,
+        "checks": [
+          {
+            "type": "number",
+            "token": "32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "53.1%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "21.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "25.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "58.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "65.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "50.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "72.2%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "retrospective",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "single-centre",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "small-sample",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "4": {
+        "word_count": 22,
+        "character_count": 446,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-boundary",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "5": {
+        "word_count": 161,
+        "character_count": 1173,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "sample-size-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "efs-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-strength",
+            "present": true
+          }
+        ],
+        "missing": []
+      }
+    }
+  },
+  "pro-full.md": {
+    "bytes": 5547,
+    "cases_present": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cases": {
+      "1": {
+        "word_count": 128,
+        "character_count": 831,
+        "checks": [
+          {
+            "type": "number",
+            "token": "1,702",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "851",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "0.72",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.63",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.81",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.58",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.70",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "internal-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "external-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "no-clinical-utility",
+            "present": true
+          }
+        ],
+        "missing": [
+          "1,702",
+          "851"
+        ]
+      },
+      "2": {
+        "word_count": 138,
+        "character_count": 795,
+        "checks": [
+          {
+            "type": "number",
+            "token": "220,089",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "8,459",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3.84%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "11.6",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.11",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.52",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.62",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.99",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "observational",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "residual-confounding",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "non-causal",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "3": {
+        "word_count": 83,
+        "character_count": 552,
+        "checks": [
+          {
+            "type": "number",
+            "token": "32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "53.1%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "21.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "25.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "58.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "65.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "50.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "72.2%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "retrospective",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "single-centre",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "small-sample",
+            "present": false
+          }
+        ],
+        "missing": [
+          "small-sample"
+        ]
+      },
+      "4": {
+        "word_count": 38,
+        "character_count": 525,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-boundary",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "5": {
+        "word_count": 323,
+        "character_count": 2064,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20/30",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "sample-size-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "efs-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-strength",
+            "present": true
+          }
+        ],
+        "missing": [
+          "20/30"
+        ]
+      }
+    }
+  },
+  "pro-lite.md": {
+    "bytes": 5293,
+    "cases_present": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cases": {
+      "1": {
+        "word_count": 140,
+        "character_count": 939,
+        "checks": [
+          {
+            "type": "number",
+            "token": "1,702",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "851",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "0.72",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.63",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.81",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.58",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.70",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "internal-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "external-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "no-clinical-utility",
+            "present": true
+          }
+        ],
+        "missing": [
+          "1,702",
+          "851"
+        ]
+      },
+      "2": {
+        "word_count": 132,
+        "character_count": 803,
+        "checks": [
+          {
+            "type": "number",
+            "token": "220,089",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "8,459",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3.84%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "11.6",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.11",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.52",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.62",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.99",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "observational",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "residual-confounding",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "non-causal",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "3": {
+        "word_count": 81,
+        "character_count": 537,
+        "checks": [
+          {
+            "type": "number",
+            "token": "32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "53.1%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "21.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "25.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "58.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "65.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "50.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "72.2%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "retrospective",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "single-centre",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "small-sample",
+            "present": false
+          }
+        ],
+        "missing": [
+          "small-sample"
+        ]
+      },
+      "4": {
+        "word_count": 19,
+        "character_count": 502,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-boundary",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "5": {
+        "word_count": 256,
+        "character_count": 1684,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20/30",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "sample-size-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "efs-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-strength",
+            "present": true
+          }
+        ],
+        "missing": [
+          "20/30"
+        ]
+      }
+    }
+  },
+  "pro-raw.md": {
+    "bytes": 5341,
+    "cases_present": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cases": {
+      "1": {
+        "word_count": 143,
+        "character_count": 922,
+        "checks": [
+          {
+            "type": "number",
+            "token": "1,702",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "851",
+            "present": false
+          },
+          {
+            "type": "number",
+            "token": "0.72",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.63",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.81",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.58",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "0.70",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "internal-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "external-validation",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "no-clinical-utility",
+            "present": true
+          }
+        ],
+        "missing": [
+          "1,702",
+          "851"
+        ]
+      },
+      "2": {
+        "word_count": 153,
+        "character_count": 973,
+        "checks": [
+          {
+            "type": "number",
+            "token": "220,089",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "8,459",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3.84%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "11.6",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.11",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.52",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.62",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "1.99",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "observational",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "residual-confounding",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "non-causal",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "3": {
+        "word_count": 95,
+        "character_count": 615,
+        "checks": [
+          {
+            "type": "number",
+            "token": "32",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "53.1%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "21.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "25.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "58.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "65.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "50.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "72.2%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "retrospective",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "single-centre",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "small-sample",
+            "present": false
+          }
+        ],
+        "missing": [
+          "small-sample"
+        ]
+      },
+      "4": {
+        "word_count": 26,
+        "character_count": 454,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-boundary",
+            "present": true
+          }
+        ],
+        "missing": []
+      },
+      "5": {
+        "word_count": 261,
+        "character_count": 1624,
+        "checks": [
+          {
+            "type": "number",
+            "token": "30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4.77%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "20/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "66.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "33.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "26/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "86.7%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "4/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "13.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "28/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "93.3%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "64",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "3/30",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "10.0%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "56.5%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "45.9%",
+            "present": true
+          },
+          {
+            "type": "number",
+            "token": "37.5%",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "sample-size-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "efs-error",
+            "present": true
+          },
+          {
+            "type": "concept",
+            "token": "claim-strength",
+            "present": true
+          }
+        ],
+        "missing": []
+      }
+    }
+  }
+}

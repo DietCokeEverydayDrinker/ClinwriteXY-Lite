@@ -1,0 +1,382 @@
+{
+  "judge_model": "deepseek-v4-flash-clean",
+  "arms": {
+    "A": {
+      "cases": {
+        "1": {
+          "evidence": 5,
+          "preservation": 3,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 4,
+          "total": 22,
+          "material_errors": [
+            "Omitted the 1,702 Swiss development/internal-validation patients and 851 UK external-validation patients."
+          ]
+        },
+        "2": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "3": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "4": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "5": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        }
+      },
+      "total": 122,
+      "overall_notes": [
+        "Cases 2-5 were accurate, well calibrated, and followed the requested formats.",
+        "Case 1 otherwise handled internal versus external validation and clinical utility well, but omitted both cohort sizes."
+      ]
+    },
+    "B": {
+      "cases": {
+        "1": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "2": {
+          "evidence": 4,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 24,
+          "material_errors": []
+        },
+        "3": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "4": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "5": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 4,
+          "usefulness": 5,
+          "total": 24,
+          "material_errors": []
+        }
+      },
+      "total": 123,
+      "overall_notes": [
+        "All required primary outcomes, denominators, endpoints, and claim boundaries were retained.",
+        "Cases 2 and 5 were somewhat overextended, adding generic limitations or detailing minor denominator omissions as separate mismatches."
+      ]
+    },
+    "C": {
+      "cases": {
+        "1": {
+          "evidence": 4,
+          "preservation": 3,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 4,
+          "total": 21,
+          "material_errors": [
+            "Omitted the 1,702 Swiss development/internal-validation patients and 851 UK external-validation patients."
+          ]
+        },
+        "2": {
+          "evidence": 4,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 24,
+          "material_errors": []
+        },
+        "3": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "4": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "5": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        }
+      },
+      "total": 120,
+      "overall_notes": [
+        "Cases 3-5 were complete and well controlled.",
+        "Case 1 omitted cohort sizes and used a slightly stronger inference about why external discrimination was lower; Case 2 used mildly causal mediation wording despite the observational caveat."
+      ]
+    },
+    "D": {
+      "cases": {
+        "1": {
+          "evidence": 5,
+          "preservation": 3,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 4,
+          "total": 22,
+          "material_errors": [
+            "Omitted the 1,702 Swiss development/internal-validation patients and 851 UK external-validation patients."
+          ]
+        },
+        "2": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "3": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "4": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "5": {
+          "evidence": 4,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 4,
+          "total": 23,
+          "material_errors": [
+            "The mismatch inventory did not explicitly identify the omitted one-year event-free survival rate (56.5%)."
+          ]
+        }
+      },
+      "total": 120,
+      "overall_notes": [
+        "Cases 2-4 were accurate and concise.",
+        "Case 1 omitted both cohort sizes, and Case 5 corrected but did not explicitly inventory the omitted one-year event-free survival result."
+      ]
+    },
+    "E": {
+      "cases": {
+        "1": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "2": {
+          "evidence": 4,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 24,
+          "material_errors": []
+        },
+        "3": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "4": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        },
+        "5": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 5,
+          "usefulness": 5,
+          "total": 25,
+          "material_errors": []
+        }
+      },
+      "total": 124,
+      "overall_notes": [
+        "The strongest overall balance of preservation, claim calibration, prose, and focused delivery.",
+        "Case 2 slightly inferred direction from the metabolic-signature hazard ratio and added generic limitation types, preventing a perfect evidence score."
+      ]
+    },
+    "F": {
+      "cases": {
+        "1": {
+          "evidence": 5,
+          "preservation": 3,
+          "prose": 4,
+          "concision": 3,
+          "usefulness": 4,
+          "total": 19,
+          "material_errors": [
+            "Omitted the 1,702 Swiss development/internal-validation patients and 851 UK external-validation patients."
+          ]
+        },
+        "2": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 4,
+          "usefulness": 5,
+          "total": 24,
+          "material_errors": []
+        },
+        "3": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 4,
+          "concision": 3,
+          "usefulness": 4,
+          "total": 21,
+          "material_errors": []
+        },
+        "4": {
+          "evidence": 4,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 4,
+          "usefulness": 5,
+          "total": 23,
+          "material_errors": []
+        },
+        "5": {
+          "evidence": 5,
+          "preservation": 5,
+          "prose": 5,
+          "concision": 4,
+          "usefulness": 5,
+          "total": 24,
+          "material_errors": []
+        }
+      },
+      "total": 111,
+      "overall_notes": [
+        "Core numbers and claim boundaries were generally accurate.",
+        "Case 1 omitted cohort sizes; Case 3 used a duplicated closing statement; Case 4 used mildly imprecise language about event-free survival changing over time."
+      ]
+    }
+  },
+  "case_rankings": {
+    "1": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "C",
+      "F"
+    ],
+    "2": [
+      "A",
+      "D",
+      "B",
+      "C",
+      "E",
+      "F"
+    ],
+    "3": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "4": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "5": [
+      "A",
+      "C",
+      "E",
+      "B",
+      "F",
+      "D"
+    ]
+  },
+  "summary": "E led with 124/125, followed by B at 123 and A at 122. Case 1 was the clearest discriminator: A, C, D, and F omitted the 1,702 Swiss and 851 UK sample sizes. Core diagnostic, observational, Chinese-revision, and bilingual outcomes were otherwise preserved with appropriate causal and clinical caution. Principal remaining issues were F's duplicated Case 3 closing and D's incomplete explicit mismatch inventory in Case 5. Equal scores are listed alphabetically within tied groups."
+}

@@ -1,0 +1,7 @@
+model,condition,basic_pro_judge,basic_flash_judge,basic_mean,advanced_pro_judge,advanced_flash_judge,advanced_mean,basic_output_chars,advanced_output_chars
+V4 Pro,Raw,116,120,118.0,73,73,73.0,4647,9763
+V4 Pro,Lite,114,124,119.0,66,67,66.5,4523,7295
+V4 Pro,Full,117,122,119.5,73,72,72.5,4825,9334
+V4 Flash,Raw,108,111,109.5,72,74,73.0,4676,10650
+V4 Flash,Lite,122,123,122.5,65,66,65.5,4716,3423
+V4 Flash,Full,125,120,122.5,70,66,68.0,4462,12484
