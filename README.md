@@ -57,8 +57,10 @@ Flash + Lite 和 Flash + Full 保留了关键病例中的 `1,702` 与 `851` 两�
 > 的盲评水平。
 
 这个结论只适用于本轮脱敏短篇写作病例，不能外推到所有论文、真实投稿或所有临床
-亚专科。完整方法、评分锚点、脱敏原文、六个组合的全部输出和科研风格图见
-[模型对比实验](docs/model-comparison-20261113/README.md)。
+亚专科。完整方法与评分锚点见
+[模型对比实验](docs/model-comparison-20261113/README.md)；8 个病例的原始输入和
+六种组合的 12 份完整文字输出可直接进入
+[原始输入与六组输出索引](docs/RAW-DATA-INDEX.md)。
 
 ![模型总体表现](docs/model-comparison-20261113/assets/figure-1-overall-performance.png)
 
