@@ -127,9 +127,17 @@ Lite 把这些问题压缩在单段工作流里。它比完整版轻，但可以
 
 ## Install
 
+**不要直接把整个 GitHub 仓库装进 Agent。** 仓库中的 `docs/` 是公开评测证据，
+包含 4 份 Full 条件的模型生成答案和图片，不属于 Lite 安装包。
+
+从 [Releases](https://github.com/DietCokeEverydayDrinker/ClinwriteXY-Lite/releases)
+下载 `ClinwriteXY-Lite-0.2.0-minimal.zip`。解压后应得到一个
+`clinwritexy-lite/` 文件夹，其第一层包含 `SKILL.md`。该精简包不包含评测目录、
+Full 条件输出、评分 JSON 或 Git 历史。
+
 ### Codex
 
-把整个 `clinwritexy-lite` 文件夹放入：
+把解压后的 `clinwritexy-lite` 文件夹整体放入：
 
 ```text
 %USERPROFILE%\.codex\skills\clinwritexy-lite
@@ -152,6 +160,21 @@ Use $clinwritexy-lite to revise this clinical results paragraph.
 把整个目录放入宿主约定的 skills 目录。也可以把目录附加给 Agent，并要求它先读取
 `SKILL.md`。不要只复制 `SKILL.md`，因为语言规则、证据边界和摘要对齐规则位于
 `references/`。
+
+如果选择从源码手动安装，只需要：
+
+```text
+SKILL.md
+VERSION
+LICENSE
+README.md
+agents/
+references/
+scripts/check_preservation.py
+scripts/test_check_preservation.py
+```
+
+`docs/`、`evaluation/` 和 `evals/` 可以留在仓库中供复核，无需放进 skills 目录。
 
 只要宿主支持读取 `SKILL.md` 及目录内引用文件，就可以尝试使用。Codex 用户可以
 直接安装；Claude Code、DeepSeek Harness、WorkBuddy 或其它 Agent 的具体安装目录
