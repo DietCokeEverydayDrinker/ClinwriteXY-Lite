@@ -1,0 +1,7 @@
+interface:
+  display_name: "ClinwriteXY Lite"
+  short_description: "Chinese clinical paragraph editing and claim checks"
+  default_prompt: "Use $clinwritexy-lite to revise this clinical paragraph while preserving numbers, citations, and claim strength."
+
+policy:
+  allow_implicit_invocation: true
