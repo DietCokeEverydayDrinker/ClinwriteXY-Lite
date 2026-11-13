@@ -5,6 +5,8 @@
 
 > 改得像论文，也保住数字和结论边界。
 
+**在线实验页：** [ClinwriteXY 模型对比实验](https://dietcokeeverydaydrinker.github.io/ClinwriteXY-Lite/)
+
 ## 开源版与完整版
 
 | 开源 ClinwriteXY Lite | 完整版 ClinwriteXY |
