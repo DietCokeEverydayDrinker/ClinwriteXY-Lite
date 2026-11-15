@@ -1,0 +1,59 @@
+title: "[功能建议] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lite 聚焦单段临床论文写作、证据边界和机械保真检查。建议请说明它当前
+        解决不了的具体问题，不必先设计复杂功能。
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 建议涉及的能力
+      options:
+        - 中文论文写作或修改
+        - 英文论文写作或修改
+        - 证据与结论边界
+        - 数字、分母或引用保真
+        - 中英文摘要对齐
+        - 安装与兼容性
+        - 文档与示例
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 现在解决不了什么问题
+      description: 给出一个真实、脱敏的写作场景。
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 目前怎样绕过
+      description: 现在使用的提示词、替代工具或人工步骤。
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望 Lite 怎么做
+      description: 描述输入、期望输出和需要保留的边界。
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: 最小脱敏示例
+      description: 不需要提供完整论文，一段合成或公开示例即可。
+
+  - type: checkboxes
+    id: privacy_confirmed
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认内容不含患者信息、账号凭据、未发表稿件或受限数据。
+          required: true

@@ -1,0 +1,84 @@
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先确认安装的是 Release 中的精简包，并检查 `SKILL.md` 是否位于
+        `clinwritexy-lite/` 第一层。提交日志和示例前请完成脱敏。
+
+  - type: input
+    id: version
+    attributes:
+      label: ClinwriteXY Lite 版本
+      placeholder: 例如 0.2.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: host
+    attributes:
+      label: 使用的 Agent
+      options:
+        - Codex
+        - Claude Code
+        - DeepSeek Harness
+        - WorkBuddy
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 系统与运行环境
+      placeholder: 例如 Windows 11、Python 3.12、Node.js 22
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 问题出现在哪一步
+      options:
+        - 下载或解压
+        - 安装 Skill
+        - Agent 没有读取 Skill
+        - 论文修改结果异常
+        - 保真检查脚本报错
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: 实际发生了什么
+      description: 写清预期结果、实际结果和可见报错。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: sanitized_details
+    attributes:
+      label: 脱敏后的命令、日志或示例
+      description: 删除用户名、路径中的个人信息、API Key、患者资料和未发表内容。
+      render: shell
+
+  - type: checkboxes
+    id: privacy_confirmed
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认内容不含患者信息、账号凭据、未发表稿件或受限数据。
+          required: true

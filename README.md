@@ -7,6 +7,20 @@
 
 **在线实验页：** [ClinwriteXY 模型对比实验](https://dietcokeeverydaydrinker.github.io/ClinwriteXY-Lite/)
 
+## 使用反馈
+
+试过 Lite 后，可以在 Discussions 留下真实记录：
+
+- [使用反馈](https://github.com/DietCokeEverydayDrinker/ClinwriteXY-Lite/discussions/categories/show-and-tell)：
+  写清 Agent、模型、任务类型、实际效果和仍然不足的地方。
+- [问题报告](https://github.com/DietCokeEverydayDrinker/ClinwriteXY-Lite/discussions/categories/q-a)：
+  安装失败、脚本报错或输出异常时，提供版本、复现步骤和脱敏报错信息。
+- [功能建议](https://github.com/DietCokeEverydayDrinker/ClinwriteXY-Lite/discussions/categories/ideas)：
+  说明现有流程解决不了什么问题，以及希望 Lite 增加哪种能力。
+
+反馈只使用合成、公开或充分脱敏的材料，不要粘贴患者信息、账号凭据、未发表稿件
+或受限原始数据。GitHub Star 只表示收藏，不表示评分；真正使用后再 Star 即可。
+
 ## 项目缘起
 
 ClinwriteXY 来自我自己的临床科研工作。过去半年，我把真实论文写作、返修、审稿回复、

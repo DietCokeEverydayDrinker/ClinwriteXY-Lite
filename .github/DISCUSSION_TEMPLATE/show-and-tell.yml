@@ -1,0 +1,75 @@
+title: "[使用反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢留下真实使用记录。请只使用合成、公开或充分脱敏的材料。
+
+  - type: dropdown
+    id: host
+    attributes:
+      label: 使用的 Agent
+      options:
+        - Codex
+        - Claude Code
+        - DeepSeek Harness
+        - WorkBuddy
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: 使用的模型
+      placeholder: 例如 DeepSeek V4 Flash、GPT-5、Claude Sonnet
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: ClinwriteXY Lite 版本
+      placeholder: 例如 0.2.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: task
+    attributes:
+      label: 主要任务
+      options:
+        - 中文论文段落修改
+        - 英文论文段落修改
+        - 结果段起草
+        - 讨论或结论修改
+        - 证据边界检查
+        - 中英文摘要对齐
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: worked
+    attributes:
+      label: 哪些地方有效
+      description: 描述具体变化，例如数字、分母、限定词、逻辑或语言表达是否得到改善。
+      placeholder: 可以附一小段脱敏前后对照。
+    validations:
+      required: true
+
+  - type: textarea
+    id: limitations
+    attributes:
+      label: 哪些地方仍然不足
+      description: 请尽量说明是 Skill、Agent、模型还是输入材料导致的问题。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy_confirmed
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认内容不含患者信息、账号凭据、未发表稿件或受限数据。
+          required: true
